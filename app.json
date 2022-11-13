@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "MedicineReminder",
+    "slug": "MedicineReminder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "packagerOpts": {
+      "sourceExts": [
+        "cjs"
+      ]
+    },
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.ghanshyamjha5.MedicineReminder"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.ghanshyamjha5.MedicineReminder"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
